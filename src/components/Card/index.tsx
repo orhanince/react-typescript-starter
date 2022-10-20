@@ -1,5 +1,5 @@
 import React, { FC , ReactElement } from "react";
-import {CardProps} from "../../types/component-types";
+import {CardProps} from "../../types/component-type";
 import {stringShortener} from "../../utils/helper";
 
 /**

@@ -1,5 +1,5 @@
 import BASE_URL from "../utils/url";
-import axios, {AxiosResponse} from "axios";;
+import axios from "axios";;
 
 
 const instance = axios.create({
@@ -7,9 +7,7 @@ const instance = axios.create({
     timeout: 15000,
 });
 
-const responseBody = (response: AxiosResponse) => response.data;
 
 export {
     instance as AppAxiosInstance,
-    responseBody
 }
