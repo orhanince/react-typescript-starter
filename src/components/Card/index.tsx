@@ -2,10 +2,12 @@ import React, { FC , ReactElement } from "react";
 import {CardProps} from "../../types/component-types";
 
 const Card: FC<CardProps> = (props: CardProps): ReactElement => {
-    const  { title } = props;
+    const  { cardImage, cardTitle, cardBody } = props;
     return (
         <>
-            {title}
+            {cardImage}
+            {cardTitle}
+            {cardBody}
         </>
     )
 }

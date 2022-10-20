@@ -10,6 +10,8 @@ export interface ButtonProps {
  * Card component props.
  * @property title {string} - Card main title.
  */
-export interface CardProps {
-    title: string;
+export type CardProps = {
+    cardTitle: string;
+    cardBody: string;
+    cardImage: string;
 }
