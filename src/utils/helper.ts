@@ -10,9 +10,10 @@ export const stringShortener = (text: string): string => {
 
 /**
  * Convert string to array.
- * @param {String}
+ * @param {String} text
+ * @param {String} character
  * @return {Array}
  */
-export const convertStringToArray = (text: string): string[] => {
-    return text.split(',');
+export const convertStringToArray = (text: string, character: string): string[] => {
+    return text.split(character);
 }
