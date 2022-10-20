@@ -1,5 +1,5 @@
 
-export interface IPOST {
+export interface IPost {
     userId: number;
     id: number;
     title: string;
