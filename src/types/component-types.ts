@@ -2,7 +2,7 @@
  * Button component props.
  * @property buttonText {string} - Button text
  */
-export interface ButtonProps {
+export type ButtonProps = {
     buttonText: string;
 }
 
